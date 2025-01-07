@@ -1,0 +1,24 @@
+# 依存関係
+node_modules/
+
+# ビルド出力
+.next/
+out/
+
+# 環境変数
+.env*
+!.env.example
+
+# ログファイル
+*.log
+
+# エディタ/IDE
+.vscode/
+.idea/
+
+# オペレーティングシステム
+.DS_Store
+Thumbs.db
+
+# テストカバレッジ
+coverage/
