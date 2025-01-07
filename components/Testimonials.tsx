@@ -28,8 +28,8 @@ export default function Testimonials() {
   return (
     <section className="py-16 bg-white overflow-hidden">
       <h2 className="text-2xl font-bold text-center mb-8">患者様の声</h2>
-      <div className="flex overflow-x-auto pb-8 px-4 -mx-4 scrollbar-hide">
-        <div className="flex space-x-6">
+      <div className="flex overflow-x-auto pb-8 px-4 -mx-4 scrollbar-hide md:mx-auto hidden-scrollbar">
+        <div className="flex space-x-6 md:mx-auto mx-4">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="w-80 flex-shrink-0">
               <CardHeader>

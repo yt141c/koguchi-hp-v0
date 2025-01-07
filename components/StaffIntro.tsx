@@ -32,8 +32,8 @@ export default function StaffIntro() {
   return (
     <section className="py-16 bg-[#E0E0E0] overflow-hidden">
       <h2 className="text-3xl font-bold text-center mb-12">スタッフ紹介</h2>
-      <div className="flex overflow-x-auto pb-8 px-4 -mx-4 scrollbar-hide">
-        <div className="flex space-x-6">
+      <div className="flex overflow-x-auto pb-8 px-4 -mx-4 md:mx-auto hidden-scrollbar">
+        <div className="flex space-x-6 md:mx-auto mx-4">
           {staffMembers.map((staff, index) => (
             <Card key={index} className="w-80 flex-shrink-0">
               <CardHeader>
