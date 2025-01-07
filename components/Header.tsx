@@ -14,7 +14,7 @@ export default function Header() {
             <Link href="/services" className="text-gray-600 hover:text-primary">診療案内</Link>
             <Link href="/first-visit" className="text-gray-600 hover:text-primary">初診の方へ</Link>
           </nav>
-          <Button size="sm" className="bg-secondary hover:bg-secondary/90 hidden md:flex">
+          <Button size="sm" className="hidden md:flex" variant="call">
             <Phone className="mr-2 h-4 w-4" /> 03-1234-5678
           </Button>
           <Drawer />
