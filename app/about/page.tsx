@@ -16,7 +16,7 @@ export default function AboutPage() {
         {/* ヒーローセクション */}
         <section className="relative h-[35vh] bg-primary overflow-hidden">
           <Image
-            src="/placeholder.svg?height=800&width=1200"
+            src="/img/interia3.jpg"
             alt="こぐち歯科クリニックの外観"
             layout="fill"
             objectFit="cover"
@@ -34,7 +34,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-8">院長紹介</h2>
             <div className="flex flex-col md:flex-row items-start gap-8">
               <Image
-                src="/placeholder.svg?height=300&width=300"
+                src="/img/doct.jpg"
                 alt="院長 小口克則"
                 width={300}
                 height={300}
@@ -116,7 +116,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">デジタルレントゲン</h3>
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/img/interia1.jpg"
                   alt="デジタルレントゲン"
                   width={400}
                   height={300}
@@ -130,7 +130,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">滅菌システム</h3>
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/img/interia2.jpg"
                   alt="滅菌システム"
                   width={400}
                   height={300}
@@ -144,7 +144,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">口腔内カメラ</h3>
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/img/interia3.jpg"
                   alt="口腔内カメラ"
                   width={400}
                   height={300}
