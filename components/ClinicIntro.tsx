@@ -60,7 +60,7 @@ export default function ClinicIntro() {
                 一般歯科から審美歯科、入れ歯まで、多様な治療に対応しているのもこぐち歯科の特長です。上石神井の地に根ざした歯科医院として、子どもからご年配の方まで、幅広い年代の方に通っていただいています。
               </p>
               <Link href="/about">
-                <Button variant="outline">医院紹介を見る</Button>
+                <Button variant="outline" className='font-bold'>医院紹介を見る</Button>
               </Link>
             </div>
           </div>

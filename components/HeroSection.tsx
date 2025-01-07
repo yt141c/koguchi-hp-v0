@@ -51,9 +51,6 @@ export default function HeroSection() {
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white p-4">
             <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
             <p className="text-lg max-w-2xl mb-8">{slide.content}</p>
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90">
-              予約する
-            </Button>
           </div>
         </div>
       ))}

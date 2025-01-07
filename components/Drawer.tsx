@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 export default function Drawer() {
   const [open, setOpen] = useState(false)
 
-  // const toggleDrawer = () => setOpen((prev) => !prev) //Removed toggleDrawer function
+  const toggleDrawer = () => setOpen((prev) => !prev) //Removed toggleDrawer function
 
   const menuItems = [
     { href: '/', label: 'ホーム' },
@@ -34,7 +34,7 @@ export default function Drawer() {
                 <Link
                   href={item.href}
                   className="text-gray-600 hover:text-primary transition-colors"
-                  //onClick={toggleDrawer} //Removed onClick
+                  onClick={toggleDrawer} //Removed onClick
                 >
                   {item.label}
                 </Link>
@@ -42,7 +42,7 @@ export default function Drawer() {
             ))}
           </ul>
           <div className="mt-auto pb-4">
-            <Button className="w-full bg-secondary hover:bg-secondary/90">
+            <Button variant="call" className="w-full font-bold">
               <Phone className="mr-2 h-4 w-4" /> 03-1234-5678
             </Button>
           </div>

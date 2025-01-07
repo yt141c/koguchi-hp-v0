@@ -24,7 +24,7 @@ export default function AboutPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white p-4">
-            <h1 className="text-4xl font-bold mb-4">安心・信頼の歯科医療</h1>
+            <h1 className="text-4xl font-bold mb-4">医院紹介</h1>
           </div>
         </section>
 

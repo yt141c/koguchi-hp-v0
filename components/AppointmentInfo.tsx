@@ -50,8 +50,8 @@ export default function AppointmentInfo() {
             </Table>
             <p className="text-center mt-4 mb-8 text-gray-600">※木曜午後、土曜午後、日曜、祝日は休診</p>
             <div className="text-center">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90">
-                <Phone className="mr-2 h-5 w-5" /> 03-1234-5678
+              <Button size="lg" variant="call" font-bold>
+                <Phone className="mr-2 h-5 w-5" /> 電話で予約する
               </Button>
             </div>
           </CardContent>

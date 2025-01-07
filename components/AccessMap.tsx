@@ -19,7 +19,7 @@ export default function AccessMap() {
       <div className="container mx-auto px-4 mt-8 text-center">
         <p className="mb-4">〒100-0005 東京都千代田区丸の内1-1-1</p>
         <p className="mb-4">東京駅丸の内北口から徒歩5分</p>
-        <Button className="bg-primary hover:bg-primary/90">
+        <Button variant="outline" className='font-bold'>
           <MapPin className="mr-2 h-4 w-4" /> Google マップで見る
         </Button>
       </div>
