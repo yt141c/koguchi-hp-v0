@@ -11,7 +11,7 @@ export default function ClinicIntro() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/img/interia1.jpg"
                 width={600}
                 height={400}
                 alt="わかりやすい説明と寄り添う姿勢"
@@ -29,7 +29,7 @@ export default function ClinicIntro() {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/img/outer1.jpg"
                 width={600}
                 height={400}
                 alt="夜遅くまで診療、忙しい方でも通いやすい"
@@ -47,7 +47,7 @@ export default function ClinicIntro() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/img/outer.jpg"
                 width={600}
                 height={400}
                 alt="地域の皆さまの歯の健康を支える幅広い診療"

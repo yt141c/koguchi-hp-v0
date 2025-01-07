@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-primary">〇〇歯科クリニック</Link>
+        <Link href="/" className="text-2xl font-bold text-primary">こぐち歯科</Link>
         <div className="flex items-center space-x-4">
           <nav className="hidden md:flex items-center space-x-4">
             <Link href="/about" className="text-gray-600 hover:text-primary">医院紹介</Link>

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">〇〇歯科クリニック</h3>
+            <h3 className="text-lg font-semibold mb-4">こぐち歯科</h3>
             <p>〒100-0005 東京都千代田区丸の内1-1-1</p>
             <p>TEL: 03-1234-5678</p>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>&copy; 2024 〇〇歯科クリニック. All rights reserved.</p>
+          <p>&copy; 2024 こぐち歯科. All rights reserved.</p>
         </div>
       </div>
     </footer>

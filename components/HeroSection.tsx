@@ -8,17 +8,17 @@ const slides = [
   {
     title: "こぐち歯科の強み",
     content: "患者さん一人ひとりに寄り添った丁寧な治療と、地域密着型の親しみやすい雰囲気が特徴です。小口先生は、歯の美しさと機能を考慮した「トータルコーディネート」を重視しています。",
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/img/members.jpg",
   },
   {
     title: "Smile, Support, Sincerity",
     content: "「素敵な笑顔を」「歯の悩みを支援」「誠実な治療」という3つの理念を掲げ、患者さんとの信頼関係を築き、長期的なお口の健康をサポートします。",
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/img/member3.jpg",
   },
   {
     title: "おいしく食べる。そして笑顔。",
     content: "患者さんのQOL（生活の質）向上に貢献することを目指し、コミュニケーションを大切にしながら、信頼関係を築いていきます。プライバシーにも配慮し、安心して治療を受けていただけます。",
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/img/interia1.jpg",
   },
 ]
 
@@ -37,9 +37,8 @@ export default function HeroSection() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? 'opacity-100' : 'opacity-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+            }`}
         >
           <Image
             src={slide.image}

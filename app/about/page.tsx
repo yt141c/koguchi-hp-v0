@@ -5,8 +5,8 @@ import AppointmentInfo from '@/components/AppointmentInfo'
 import AccessMap from '@/components/AccessMap'
 
 export const metadata: Metadata = {
-  title: '医院紹介 | こぐち歯科クリニック',
-  description: 'こぐち歯科クリニックの医院紹介ページです。院長紹介、診療理念、設備紹介などの情報をご覧いただけます。',
+  title: '医院紹介 | こぐち歯科',
+  description: 'こぐち歯科の医院紹介ページです。院長紹介、診療理念、設備紹介などの情報をご覧いただけます。koguchishika.com',
 }
 
 export default function AboutPage() {
@@ -50,20 +50,20 @@ export default function AboutPage() {
                 </ul>
                 <h4 className="text-lg font-medium mb-2">院長からのメッセージ</h4>
                 <div className="text-gray-600 space-y-4">
-                  <p>こぐち歯科院長、小口克則です。</p>
-  
+                  <p>こぐち歯科 院長、小口克則です。</p>
+
                   <p className="font-semibold text-primary">このホームページで伝えたいこと。</p>
                   <p>歯、お口に不安のある方の気持ちを少しでも取り除いてあげたい。</p>
-  
+
                   <p>痛い、怖いと思う前に近くの歯医者さんに行こうと思う動機付けになればと思い、ホームページを立ち上げました。
-                  まずは一人で悩んでいないで歯医者さんに相談してみてはいかがですか。</p>
-  
+                    まずは一人で悩んでいないで歯医者さんに相談してみてはいかがですか。</p>
+
                   <p>皆さんの大切な歯の健康を守りいつまでもご自分の歯で噛める、また入れ歯でも長く噛み続けられる様、お手伝いが出来ればと思います。</p>
-  
+
                   <p className="font-semibold text-primary">おいしく食べる。そして笑顔。</p>
                   <p>素敵なことです。
-                  そうした方々が少しでも増えていくことが私の喜びです。</p>
-  
+                    そうした方々が少しでも増えていくことが私の喜びです。</p>
+
                   <p>歯の事や治療について少しでも疑問に思う事があれば遠慮なく質問してください。</p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-8">診療理念・治療方針</h2>
             <div className="text-gray-600 space-y-4">
               <p>
-                こぐち歯科クリニックでは、<span className="font-semibold text-primary">患者さまの安心と満足を第一に考えた医療サービス</span>を提供しています。
+                こぐち歯科では、<span className="font-semibold text-primary">患者さまの安心と満足を第一に考えた医療サービス</span>を提供しています。
                 私たちは以下の2つの柱を軸に、心のこもった診療を行っています：
               </p>
               <div className="pl-4 border-l-4 border-primary">

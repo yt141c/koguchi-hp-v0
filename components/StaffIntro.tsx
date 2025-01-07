@@ -5,25 +5,25 @@ const staffMembers = [
   {
     name: "山田 太郎",
     role: "院長",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "img/member1.jpg",
     description: "患者様一人ひとりに寄り添った診療を心がけています。皆様の笑顔のために尽力いたします。"
   },
   {
     name: "鈴木 花子",
     role: "歯科衛生士",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "img/member2.jpg",
     description: "予防歯科を中心に、患者様の歯の健康をサポートいたします。"
   },
   {
     name: "佐藤 美咲",
     role: "受付",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "img/member3.jpg",
     description: "患者様に安心してご来院いただけるよう、丁寧な対応を心がけています。"
   },
   {
     name: "田中 健太",
     role: "歯科医師",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "img/member4.jpg",
     description: "最新の技術と知識を活かし、質の高い治療を提供いたします。"
   }
 ]

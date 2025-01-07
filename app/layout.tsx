@@ -11,8 +11,8 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: 'こぐち歯科クリニック',
-  description: '安心・安全な歯科治療をご提供します',
+  title: 'こぐち歯科',
+  description: 'こぐち歯科 - 地域密着型の歯科医院。お口の健康をトータルサポート。koguchishika.com',
 }
 
 export default function RootLayout({
